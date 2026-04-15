@@ -76,50 +76,6 @@ Takes **~3–8 minutes** depending on your machine.
 
 ---
 
-## 💻 How to Run
-
-### Option A — Interactive CLI
-
-```bash
-python main.py
-```
-
-```
-You ▸ What are the latest AI news today?
-```
-
-Flags:
-```bash
-python main.py --ingest         # refresh news then start Q&A
-python main.py --ingest-only    # just refresh, no Q&A
-python main.py --auto           # auto-refresh every 60 min
-```
-
-### Option B — Streamlit Web UI
-
-```bash
-streamlit run app.py
-```
-
-Then open **http://localhost:8501** in your browser.
-
----
-
-## 🧪 Example Queries
-
-```
-What are the latest AI news today?
-What has OpenAI or Google announced recently?
-What are the recent breakthroughs in large language models?
-Are there any new AI regulations or government policies?
-What AI chip or hardware news is there?
-Which AI startups have raised funding recently?
-What is the latest on autonomous agents?
-Any news about AI safety or alignment?
-```
-
----
-
 ## 🔧 Configuration
 
 Edit `config.py` to customise:
