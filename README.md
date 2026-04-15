@@ -46,8 +46,8 @@ ollama pull nomic-embed-text  # Embedding model (~300 MB)
 ```
 
 > **Alternative LLMs** (if you have less RAM):
-> - `ollama pull phi3` (lighter, ~2.3 GB)
-> - `ollama pull mistral` (~4 GB)
+> - `ollama pull phi3` 
+> - `ollama pull mistral` 
 > - Edit `LLM_MODEL` in `config.py` to match.
 
 ### Step 3 — Set up Python environment
@@ -176,8 +176,3 @@ Answer + Sources
 | Slow responses | Use a smaller model like `phi3` |
 | Out of memory | Reduce `MAX_ARTICLES_PER_FEED` in config.py |
 
----
-
-## 📝 License
-
-MIT — free to use, modify, and distribute.
